@@ -1,0 +1,88 @@
+<style>
+                  /* CSS styles for navigation links */
+                  .nav-links {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                  }
+
+                  .nav-links a {
+                    margin-left: 10px;
+                    color: #4285F4;
+                    text-decoration: none;
+                  }
+
+                  /* CSS styles for index.html */
+                  .search-container {
+                    text-align: center;
+                    margin-top: 50px;
+                  }
+
+                  .search-input {
+                    width: 500px;
+                    padding: 10px;
+                    border-radius: 25px;
+                    border: 1px solid #ccc;
+                    font-size: 16px;
+                  }
+
+                  .search-button {
+                    margin-top: 10px;
+                    background-color: #4285F4;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    cursor: pointer;
+                  }
+
+                  .lucky-button {
+                    margin-top: 10px;
+                    background-color: #F4B400;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    cursor: pointer;
+                  }
+
+                  /* CSS styles for image-search.html */
+
+                  .search-image-container {
+                    text-align: center;
+                    margin-top: 150px;
+                  }
+
+                  .search-image-button {
+                    margin-top: 10px;
+                    background-color: #4285F4;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    font-size: 16px;
+                    cursor: pointer;
+                  }
+
+                  /* CSS styles for search form */
+
+                  .search-form-label {
+                    text-align: left;
+                    margin-top: 50px;
+                    margin-left: 20px;
+                  }
+
+                  .search-form-label {
+                    font-weight: bold;
+                  }
+
+                  .search-form-input {
+                    width: 500px;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    font-size: 16px;
+                  }
+</style>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Google Search</title>
+  <style>
+    /* CSS styles for navigation links */
+    .nav-links {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .nav-links a {
+      margin-left: 10px;
+      color: #4285F4;
+      text-decoration: none;
+    }
+
+    /* CSS styles for index.html */
+    .search-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .search-input {
+      width: 500px;
+      padding: 10px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .search-button {
+      margin-top: 10px;
+      background-color: #4285F4;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .lucky-button {
+      margin-top: 10px;
+      background-color: #F4B400;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style
+</head>
+<body>
+  <!-- Navigation links -->
+  <div class="nav-links a">
+    <a href="index.html">Google Search</a>
+    <a href="image-search.html">Image Search</a>
+    <a href="advanced-search.html">Advanced Search</a>
+  </div>
+  <br /><br />
+  <br /><br />
+  <!-- Search form -->
+  <div class="search-container">
+    <img src="googlelogo_color_272x92dp.png" alt="Google img" height="92" width="272">
+    <form action="https://www.google.com/search" method="GET">
+      <input type="text" name="q" class="search-input" />
+
+      <br /><br />
+
+      <input type="submit" name="btnK" value="Google Search" class="search-button" />
+      <input type="submit" name="btnI" value="I'm Feeling Lucky" class="lucky-button" onclick="window.location.href='https://www.google.com/search?q=' + encodeURIComponent(document.getElementsByName('q')[0].value) + '&btnI=1'" />
+    </form>
+  </div>
+</body>
+</html>

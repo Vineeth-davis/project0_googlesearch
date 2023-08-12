@@ -1,0 +1,147 @@
+
+/* CSS styles for navigation links */
+.nav-links {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.nav-links a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* CSS styles for index.html */
+.search-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-bar input {
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+    font-size: 16px;
+}
+.search-bar {
+  display: flex;
+  z-index: 3;
+  min-height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  max-width: 584px;
+  font-size: 16px;
+  align-items: center; 
+  padding-left: 16px;
+  outline: none; 
+}
+
+.search-button {
+  margin-top: 10px;
+  background-color: #4285F4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.google-lucky-button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* CSS styles for image-search.html */
+
+.search-image-container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.search-image-button {
+  margin-top: 10px;
+  background-color: #4285F4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* CSS styles for search form */
+
+.p-advanced-search{
+
+  color: #d93025;
+  font-size: 20px;
+  margin: 10px 0 0 25px;
+}
+
+
+.search-form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 5px;
+}
+
+.horizontal-line{
+  border-bottom: 1px solid #ebebeb;
+}
+
+.p-text{
+  font-size: 16px;
+  color: #333;
+}
+.search-form-label {
+
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: inherit;
+}
+
+.search-form-input {
+  text-align: left;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.advanced-search-button {
+  margin-top: 5px;
+  background-color: #4285F4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}

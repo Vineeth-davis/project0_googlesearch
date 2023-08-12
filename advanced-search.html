@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Google Advanced Search</title>
+  <style>
+    /* CSS styles for navigation links */
+    .nav-links {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .nav-links a {
+      margin-left: 10px;
+      color: #4285F4;
+      text-decoration: none;
+    }
+
+    /* CSS styles for search form */
+    .search-container {
+      text-align: left;
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+
+    .search-form-label {
+      font-weight: bold;
+    }
+
+    .search-form-input {
+      width: 500px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .search-button {
+      margin-top: 10px;
+      background-color: #4285F4;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation links -->
+  <div class="nav-links">
+    <a href="index.html">Google Search</a>
+    <a href="image-search.html">Image Search</a>
+    <a href="advanced-search.html">Advanced Search</a>
+  </div>
+
+  <!-- Advanced Search form -->
+  <div class="search-container">
+    <form action="https://www.google.com/search" method="GET">
+      <label class="search-form-label">Find pages with... "all these words:"</label>
+      <br />
+      <input type="text" name="as_q" class="search-form-input" />
+
+      <br /><br />
+
+      <label class="search-form-label">Find pages with... "this exact word or phrase:"</label>
+      <br />
+      <input type="text" name="as_epq" class="search-form-input" />
+
+      <br /><br />
+
+      <label class="search-form-label">Find pages with... "any of these words:"</label>
+      <br />
+      <input type="text" name="as_oq" class="search-form-input" />
+
+      <br /><br />
+
+      <label class="search-form-label">Find pages with... "none of these words:"</label>
+      <br />
+      <input type="text" name="as_eq" class="search-form-input" />
+
+      <br /><br />
+
+      <input type="submit" value="Google Search" class="search-button" />
+    </form>
+  </div>
+</body>
+</html>
